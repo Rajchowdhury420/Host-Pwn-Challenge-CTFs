@@ -19,6 +19,7 @@ $ sudo systemctl start docker
 
 ### Step 3
 once everything is done , now build the Docker container & run it in background mode
+![](run.png)
 ```bash
 $ docker build -t binexp .
 $ docker images
