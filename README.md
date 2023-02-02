@@ -7,3 +7,4 @@
 ### Step 1 
 
 1. Create an Instance in aws , in security tab , click on inbound rules , there add custom TCP check box & add the custom port you want to host it on to
+![](port.png)
