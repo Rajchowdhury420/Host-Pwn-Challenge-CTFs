@@ -8,7 +8,7 @@
 
 1. Create an Instance in aws , in security tab , click on inbound rules , there add custom TCP check box & add the custom port you want to host it on to
 
-![](./port.png)
+![](photos/port.png)
 
 ### Step 2
 2. login to your instance , & install docker & start the docker service
@@ -21,7 +21,7 @@ $ sudo systemctl start docker
 ### Step 3
 once everything is done , now build the Docker container & run it in background mode
 
-![](./run.png)
+![](photos/run.png)
 ```bash
 $ docker build -t binexp .
 $ docker images
@@ -31,4 +31,4 @@ $ docker run -d -it --rm -p 1337:1337 binexp
 ### Step 4 
 test & connect to the port using nc & see if everything is working or not
 
-![](./donnnne.png)
+![](photos/donnnne.png)
