@@ -1,7 +1,7 @@
 # Host-A-pwn-chall-in-Docker-via-EC2
 ### A small intro how to host pwn ctf challs in Docker via AWS EC2 Instance
 #### File Structure
-![File Structure](../treee.png)
+![File Structure](photos/treee.png)
 
 ### AWS EC2 configure
 ### Step 1 
